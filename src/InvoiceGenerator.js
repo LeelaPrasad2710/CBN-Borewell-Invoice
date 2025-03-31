@@ -288,6 +288,10 @@ const InvoiceGenerator = () => {
         </div>
       </div>
 
+      <div className="notes-section">
+        <h4>Note: Please note that the provided quotation is an estimate, and the final amount may vary depending on the depth of the drilling. Kindly ensure an advance payment of a minimum of 1,00,000 before the commencement of drilling.</h4>
+      </div>
+
       <div className="button-container">
         <button className="clear-table" onClick={clearTableData}>Clear Table Data</button>
         <button className="clear-header" onClick={clearHeaderFields}>Clear Header</button>
